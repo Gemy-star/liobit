@@ -32,6 +32,7 @@
 {% include 'footer.html' %}
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+   <a href="#" onclick="Whatsapp()" id="got-to-whats" class="go-to-whats d-flex align-items-center justify-content-center"><i class="bi bi-whatsapp" style="color: #151515"></i></a>
   <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
   <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
   <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
@@ -40,6 +41,26 @@
   <script src="{% static 'assets/vendor/purecounter/purecounter.js' %}"></script>
   <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
  <script src="{% static 'assets/js/main.js' %}"></script>
+<script>
+    whats = document.getElementById("got-to-whats");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    whats.style.display = "block";
+  } else {
+    whats.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+
+function Whatsapp() {
+  window.location.href = "https://api.whatsapp.com/send?phone=01111343463"
+}
+</script>
 </body>
 </html>
 

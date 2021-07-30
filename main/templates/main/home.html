@@ -15,18 +15,15 @@
       </div>
 
       <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-        <div class="col-xl-4 col-md-6">
-          <div class="icon-box">
-            <i class="ri-store-line"></i>
-            <h3><a href="">أنظمة للشركات</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-4 col-md-6">
+   {% for cat in cats %}
+           <div class="col-xl-4 col-md-6">
           <div class="icon-box">
             <i class="ri-bar-chart-box-line"></i>
-            <h3><a href="">أنظمة الأفراد</a></h3>
+            <h3><a href="{% url 'cat-page' cat.pk %}">{{ cat.Name }}</a></h3>
           </div>
         </div>
+
+          {% endfor %}
 
       </div>
 

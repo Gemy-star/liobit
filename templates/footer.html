@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-4 col-md-4">
+          <div class="col-lg-6 col-md-6">
             <div class="footer-info">
 <img src="{% static 'images/logo.png' %}" class="img-fluid" style="height: 12vh"/>
               <p>
@@ -22,22 +22,15 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-4 footer-links">
+          <div class="col-lg-6 col-md-6 footer-links">
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">الرئيسية</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">إتصل بنا</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">عن الشركة</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="{% url 'home-page' %}">الرئيسية</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a  href="{% url 'contact-page' %}">إتصل بنا</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a  href="{% url 'about-page' %}">عن الشركة</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">الشروط و الأحكام</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-4 footer-links">
-            <h4>الخدمات</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">أنظمة الأفراد</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">أنظمة الشركات</a></li>
-            </ul>
-          </div>
 
 
         </div>
