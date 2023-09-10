@@ -1,0 +1,47 @@
+{% extends 'main.html' %}
+
+
+{% block title %}  {{ cat.Name }} {% endblock title %}
+
+
+{% block body %}
+  <section id="service_hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>{{ cat.Name }}<span>.</span></h1>
+          <h2>{{ cat.description }}</h2>
+        </div>
+      </div>
+
+    </div>
+  </section>
+<section id="portfolio" class="portfolio">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+
+
+        <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 1097.33px;">
+
+{% for pro in projs %}
+                      <div class="col-lg-4 col-md-6 portfolio-item filter-app" style="position: absolute; left: 0px; top: 0px;">
+            <div class="portfolio-wrap">
+              <img src="{{ pro.image.url }}" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>{{ pro.Name }}</h4>
+                <div class="portfolio-links">
+                  <a href="{{ pro.image.url }}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="{{ pro.url }}" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+            {% endfor %}
+
+        </div>
+
+      </div>
+    </section>{% endblock body %}
