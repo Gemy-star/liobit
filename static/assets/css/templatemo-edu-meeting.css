@@ -155,7 +155,7 @@ html,
 body {
   font-family: 'Cairo', sans-serif;
   font-weight: 400;
-  background-color: #fff;
+  background-color: rgba(250, 250, 250, 0.15);
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -240,8 +240,8 @@ body {
 
 .main-button-red a {
   font-size: 13px;
-  color: #fff;
-  background-color: #aa952d;
+  color: #aa952d;
+  background-color: rgba(250, 250, 250, 0.15);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -257,7 +257,7 @@ body {
 .main-button-yellow a {
   font-size: 13px;
   color: #fff;
-  background-color: #f5a425;
+  background-color: rgba(250, 250, 250, 0.15);
   padding: 12px 30px;
   display: inline-block;
   border-radius: 22px;
@@ -290,7 +290,7 @@ header
 */
 
 .sub-header {
-  background-color: #1f272b;
+  background-color: #000000;
   position: relative;
   z-index: 1111;
 }
@@ -327,7 +327,7 @@ header
 }
 
 .background-header {
-  background-color: #fff !important;
+  background-color: rgba(250, 250, 250, 0.15);
   height: 80px !important;
   position: fixed !important;
   top: 0 !important;
@@ -337,12 +337,12 @@ header
 }
 
 .background-header .main-nav .nav li a {
-  color: #1e1e1e !important;
+  color: #fff !important;
 }
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e !important;
+  color: #fff !important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -822,12 +822,16 @@ banner
   transform: translateY(-50%);
 }
 
+.text-bold {
+  font-weight: 800;
+}
+
 .main-banner .caption h6 {
   margin-top: 0px;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #fff;
+  color: #aa952d;
   letter-spacing: 1px;
 }
 
@@ -1006,7 +1010,7 @@ section.upcoming-meetings .section-heading {
 }
 
 section.upcoming-meetings .categories {
-  background-color: #fff;
+  background-color: rgba(250, 250, 250, 0.15);
   border-radius: 20px;
   padding: 40px;
   margin-right: 45px;
@@ -1015,7 +1019,7 @@ section.upcoming-meetings .categories {
 section.upcoming-meetings .categories h4 {
   font-size: 18px;
   font-weight: 600;
-  color: #1f272b;
+  color: #fff;
   margin-bottom: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
@@ -1028,7 +1032,7 @@ section.upcoming-meetings .categories ul li {
 
 section.upcoming-meetings .categories ul li a {
   font-size: 15px;
-  color: #1f272b;
+  color: #fff;
   font-weight: 500;
   transition: all .3s;
 }
@@ -1050,6 +1054,7 @@ section.upcoming-meetings .categories .main-button-red a {
 
 .meeting-item {
   margin-bottom: 30px;
+  background-color: rgba(250, 250, 250, 0.15);
 }
 
 .meeting-item .thumb {
@@ -1069,7 +1074,7 @@ section.upcoming-meetings .categories .main-button-red a {
 
 .meeting-item .thumb .price span {
   font-size: 16px;
-  color: #1f272b;
+  color: #fff;
   font-weight: 600;
   background-color: rgba(250, 250, 250, 0.9);
   padding: 7px 12px;
@@ -1077,7 +1082,7 @@ section.upcoming-meetings .categories .main-button-red a {
 }
 
 .meeting-item .down-content {
-  background-color: #fff;
+  background-color: rgba(250, 250, 250, 0.15);
   padding: 30px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -1099,14 +1104,14 @@ section.upcoming-meetings .categories .main-button-red a {
 
 .meeting-item .down-content .date span {
   display: block;
-  color: #1f272b;
+  color: #fff;
   font-size: 22px;
   margin-top: 7px;
 }
 
 .meeting-item .down-content h4 {
   font-size: 18px;
-  color: #1f272b;
+  color: #fff;
   font-weight: 600;
   display: inline-block;
   margin-bottom: 15px;
@@ -1114,7 +1119,7 @@ section.upcoming-meetings .categories .main-button-red a {
 
 .meeting-item .down-content p {
   margin-left: 50px;
-  color: #1f272b;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -1173,7 +1178,7 @@ section.apply-now .item p {
   padding: 20px;
   font-size: 18px;
   font-weight: 700;
-  color: #1f272b;
+  color: #fff;
   cursor: pointer;
   transition: color 200ms ease-in-out;
   border-bottom: 1px solid #fff;
@@ -1236,7 +1241,7 @@ section.our-courses {
 .our-courses .item .down-content h4 {
   padding: 25px;
   font-size: 18px;
-  color: #1f272b;
+  color: #fff;
   text-align: center;
   border-bottom: 1px solid #eee;
 }
@@ -1448,14 +1453,14 @@ section.contact-us {
 }
 
 section.contact-us #contact {
-  background-color: #fff;
+  background-color: rgba(250, 250, 250, 0.15);
   border-radius: 20px;
   padding: 40px;
 }
 
 section.contact-us #contact h2 {
   text-transform: uppercase;
-  color: #1f272b;
+  color: #fff;
   border-bottom: 1px solid #eee;
   margin-bottom: 40px;
   padding-bottom: 20px;
@@ -1517,7 +1522,7 @@ section.contact-us #contact button:hover {
 }
 
 section.contact-us .right-info {
-  background-color: #aa952d;
+  background-color: rgba(250, 250, 250, 0.15);
   border-radius: 20px;
   padding: 40px;
 }
@@ -1574,12 +1579,13 @@ heading page
 */
 
 section.heading-page {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/black-bg.jpg);
   background-position: center center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 230px;
-  padding-bottom: 110px;
+  padding-top: 140px;
+  padding-bottom: 0px;
   text-align: center;
 }
 
@@ -1610,14 +1616,13 @@ upcoming meetings page
 */
 
 section.meetings-page {
-  background-image: url(../images/back_ksa.jpg);
+  background-image: url(../images/black-bg.jpg);
   background-position: center center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 140px;
   padding-bottom: 0px;
-  opacity: 0.7;
 }
 
 section.meetings-page .filters {
@@ -1661,7 +1666,7 @@ section.meetings-page .pagination ul li a {
   height: 40px;
   background-color: #fff;
   border-radius: 10px;
-  color: #1f272b;
+  color: #fff;
   display: inline-block;
   text-align: center;
   line-height: 40px;
@@ -1703,7 +1708,7 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .thumb .price span {
   font-size: 16px;
-  color: #1f272b;
+  color: #fff;
   font-weight: 600;
   background-color: rgba(250, 250, 250, 0.9);
   padding: 7px 12px;
@@ -1711,7 +1716,7 @@ section.meetings-page .pagination ul li a:hover {
 }
 
 .meeting-single-item .down-content {
-  background-color: #fff;
+  background-color: rgba(250, 250, 250, 0.15);
   padding: 40px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -1719,7 +1724,7 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .thumb .date {
   position: absolute;
-  background-color: rgba(250, 250, 250, 0.9);
+  background-color: rgba(250, 250, 250, 0.15);
   width: 80px;
   height: 80px;
   text-align: center;
@@ -1738,14 +1743,14 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .thumb .date span {
   display: block;
-  color: #1f272b;
+  color: #fff;
   font-size: 22px;
   margin-top: 7px;
 }
 
 .meeting-single-item .down-content h4 {
   font-size: 22px;
-  color: #1f272b;
+  color: #fff;
   font-weight: 600;
   display: inline-block;
   margin-bottom: 15px;
@@ -1753,14 +1758,14 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .down-content h5 {
   font-size: 18px;
-  color: #1f272b;
+  color: #fff;
   font-weight: 700;
   display: inline-block;
   margin-bottom: 15px;
 }
 
 .meeting-single-item .down-content p {
-  color: #1f272b;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -1791,7 +1796,7 @@ section.meetings-page .pagination ul li a:hover {
 
 .meeting-single-item .down-content .share ul li a {
   font-size: 14px;
-  color: #1f272b;
+  color: #fff;
   transition: all .3s;
 }
 
@@ -1957,7 +1962,7 @@ responsive
   }
 
   .header-area .main-nav .nav li ul.sub-menu li a {
-    color: #1f272b;
+    color: #fff;
   }
 
 }
