@@ -1,0 +1,67 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block title %}
+  عن الشركة
+{% endblock %}
+
+{% block body %}
+  <section class="heading-page header-text" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h6>إصدارات</h6>
+          <h2>مؤسسة مال</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="meetings-page" id="meetings">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="filters">
+                <ul>
+                  <li data-filter="*" class="active">جميع الأصدرات</li>
+                  <li data-filter=".maal">مال</li>
+                  <li data-filter=".madena">مال المدينة</li>
+                  <li data-filter=".capital">مال كابيتال</li>
+                  <li data-filter=".maal_english">مال باللغة الأنجليزية</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="row grid" style="position: relative; height: auto;">
+                <div class="col-lg-6 all maal">
+                  <div class="meeting-item">
+                    <div class="thumb">
+                      <a href="www.maaal.com"><img src="{% static 'assets/images/logo.png' %}" class="card_versions" alt="" /></a>
+                    </div>
+                    <div class="down-content">
+                      <h4>صحيفة مال</h4>
+                      <p>إصدار إقليمي من إصدارات مال في الشأن الاقتصادي والنشاط الاستثماري. نجح إطلاق هذا الإصدار في تمهيد الطريق أمام تغطية إعلامية مميزة للمنطقة وتسليط الضوء بشكل مميز واحترافي على النشاط الاقتصادي والاستثمارات المتاحة في منطقة المدينة المنورة مما سيساهم في رفع الأداء وجذب العديد من الاستثمارات للمنطقة.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 all imp">
+                  <div class="meeting-item">
+                    <div class="thumb">
+                      <a href="#"><img src="{% static 'assets/images/madena.png' %}" class="card_versions" alt="" /></a>
+                    </div>
+                    <div class="down-content">
+                      <a href="meeting-details.html"><h4>صحيفة مال المدينة</h4></a>
+                      <p>تشارك صحيفة مال جميع إصداراتها موثوقية علامتها التجارية التي بنتها لدى صناع القرار وقطاع الأعمال. تحمل جميع الإصدارات عنوان الموقع الإلكتروني للصحيفة وتستعمل حساباتها على مواقع التواصل الاجتماعي ، الأمر الذي يساهم في انتشار أخبار كل إصدار بسرعة وموثوقية. تطبق قواعد "مال" في كامل منتجاتها التحريرية والفنية لجميع إصداراتها ، ما يؤكد جودة المواد الإعلامية ومطابقتها لصحيفة مال.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row grid" style="position: relative; height: auto;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

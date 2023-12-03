@@ -7,16 +7,18 @@
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
             <a href="{% url 'home-index' %}" class="logo maal">
-           <img src="{% static 'assets/images/logo.png' %}" style="max-width: 5.8rem;" />
+           <img src="{% static 'assets/images/1.png' %}" style="max-width: 4.8rem;" />
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="{% url 'home-index' %}"  class="text-black active">الرئيسية</a></li>
+              <li><a href="{% url 'home-index' %}"  class="text-black active">الرئيسية</a></li>
               <li><a class="text-black text-bold" href="{% url 'about-page' %}">عن المؤسسة</a></li>
-              <li class="scroll-to-section"><a class="text-black text-bold" href="#apply">خدمات </a></li>
+              <li ><a class="text-black text-bold" href="#apply">خدمات </a></li>
+              <li ><a class="text-black text-bold" href="{% url 'versions-page' %}">إصدارت </a></li>
+
               <li class="has-sub">
-                <a class="text-black text-bold" href="javascript:void(0)">إتصل بنا</a>
+                <a class="text-black text-bold" href="javascript:void(0)">إتصل بنا </a>
                 <ul class="sub-menu">
                   <li><a class="text-black text-bold" href="#"> عبر الموقع</a></li>
                   <li><a class="text-black text-bold" href="#"> عبر الواتساب</a></li>

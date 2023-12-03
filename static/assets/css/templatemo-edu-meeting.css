@@ -1722,6 +1722,11 @@ section.meetings-page .pagination ul li a:hover {
   border-bottom-left-radius: 20px;
 }
 
+.card_versions{
+  max-height: 19vh;
+max-width: 32rem;
+}
+
 .meeting-single-item .thumb .date {
   position: absolute;
   background-color: rgba(250, 250, 250, 0.15);
