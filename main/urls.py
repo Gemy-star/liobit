@@ -6,4 +6,6 @@ urlpatterns = [
     path("home", views.home_page, name="home-index"),
     path("maal/versions", views.porjects, name="versions-page"),
     path("about", views.about_page, name="about-page"),
+    path("services", views.services_page, name="services-page"),
+
 ]

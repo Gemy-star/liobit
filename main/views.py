@@ -10,6 +10,10 @@ def home_page(request):
 def about_page(request):
     return render(request, "main/about.html")
 
+def services_page(request):
+    return render(request, "main/services.html")
+
+
 
 def contact_page(request):
     if request.method == "POST":
