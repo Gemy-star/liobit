@@ -94,81 +94,46 @@
       </div>
     </div>
   </section>
-  <section class="upcoming-meetings" id="meetings">
+  <section class="our-courses" id="courses" style="direction:ltr;">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+            <div class="col-lg-12">
           <div class="section-heading">
-            <h2>خدمات مال</h2>
+            <h2 class="text-center">خدمات مال</h2>
           </div>
         </div>
-        <div class="col-lg-4">
-          <div class="categories">
-            <h4>خدمات </h4>
-            <ul class="d-flex flex-column">
-                 <li>
-                <a href="#">صحافة واعلام </a>
-              </li>
-                 <li>
-                <a href="#">تنظيم المعارض </a>
-              </li>
-              <li>
-                <a href="#">الاتصالات التسويقية</a>
-              </li>
-              <li>
-                <a href="#">مركز الأبحاث والدراسات </a>
-              </li>
-              <li>
-                <a href="#">العلاقات العامة</a>
-              </li>
-            </ul>
-            <div class="main-button-red">
-              <a href="{% url 'services-page' %}">المزيد</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <img src="{% static 'assets/images/bg_5.jpg' %}" alt="New Lecturer Meeting" />
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6 >{% now 'M' %} <span>{% now 'd' %}</span></h6>
-                  </div>
+               <div class="col-lg-12">
+          <div class="owl-courses-item owl-carousel">
+            <div class="item">
+              <div class="down-content">
              <h5 class="text-maal">الاتصالات التسويقية</h5>
-                        <p>عد الإعـــلان أحـــد أهـــم الـــوســـائـــل الـــتي تســـتخدمـــها يـــ ّ الــجهات والشــركــات لــترويــج مــنتجاتــها ، ولــكن لا يــمكن تحـديـد نـوع الإعـلان ومـاهـيته دون خـبرة حـقيقية فـي التسويق ، خططه وآلياته ، استراتيجيته وأساليبه. نــــقدم خــــبراتــــنا عــــلى مــــدى عــــقود فــــي الخــــدمــــات مـن بـناء وتـطويـر الإسـتراتـيجيات ً الـتسويـقية بـأنـواعـها بـدءا إلــــــى إعــــــداد ورســــــم الخــــــطط مــــــع تحــــــليل الــــــسوق والاحـتياجـات والشـرائـح المسـتهدفـة وإضـافـة إلـى دراسـة المنتج وتحديد المنافسين.</p>
+           <p class="text-white">عد الإعـــلان أحـــد أهـــم الـــوســـائـــل الـــتي تســـتخدمـــها يـــ ّ الــجهات والشــركــات لــترويــج مــنتجاتــها ، ولــكن لا يــمكن تحـديـد نـوع الإعـلان ومـاهـيته دون خـبرة حـقيقية فـي التسويق ، خططه وآلياته ، استراتيجيته وأساليبه. نــــقدم خــــبراتــــنا عــــلى مــــدى عــــقود فــــي الخــــدمــــات مـن بـناء وتـطويـر الإسـتراتـيجيات ً الـتسويـقية بـأنـواعـها بـدءا إلــــــى إعــــــداد ورســــــم الخــــــطط مــــــع تحــــــليل الــــــسوق والاحـتياجـات .</p>
 
+                <div class="info">
+                  <div class="row">
+                    <div class="col-12 mx-auto">
+                      <img class="mx-auto" src="{% static 'assets/images/bg_5.jpg' %}" style="max-width: 8.5rem;" />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-                  <img src="{% static 'assets/images/bg_2.jpg' %}" alt="New Lecturer Meeting" />
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6 >{% now 'M' %} <span>{% now 'd' %}</span></h6>
+            <div class="item">
+              <div class="down-content">
+           <h5 class="text-maal">تنظيم المعارض</h5>
+                        <p class="text-white">سهــ ًلا فــي الــبدايــة ولــكن ً إقــامــة فــعالــية قــد يــبدو أمــرا تـحويـل أي فـعالـية إلـى حـدث نـاجـح هـو أمـر يـتطلب فـريـق عمل محترف. نــــقدم فــــي مــــال أبــــرع الــــكفاءات فــــي تــــنظيم وإدارة الأحــداث بــأنــواعــها(مــعارض- مــؤتــمرات - فــعالــيات - مـن إنـشاء ً ورشعـمل - احـتفالـيات) بـكل تـفاصـيلها بـدءا بتخــطيطه وتــنفيذه وإضــافــة إلــى ً فــكرة الحــدث مــرورا تسويق الرعايات والترويج الإعلاني الاحترافي.</p>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-12 mx-auto">
+                      <img class="mx-auto" src="{% static 'assets/images/bg_2.jpg' %}" style="max-width: 8.5rem;" />
+                    </div>
                   </div>
-                    <h5 class="text-maal">تنظيم المعارض</h5>
-                        <p>سهــ ًلا فــي الــبدايــة ولــكن ً إقــامــة فــعالــية قــد يــبدو أمــرا تـحويـل أي فـعالـية إلـى حـدث نـاجـح هـو أمـر يـتطلب فـريـق عمل محترف. نــــقدم فــــي مــــال أبــــرع الــــكفاءات فــــي تــــنظيم وإدارة الأحــداث بــأنــواعــها(مــعارض- مــؤتــمرات - فــعالــيات - مـن إنـشاء ً ورشعـمل - احـتفالـيات) بـكل تـفاصـيلها بـدءا بتخــطيطه وتــنفيذه وإضــافــة إلــى ً فــكرة الحــدث مــرورا تسويق الرعايات والترويج الإعلاني الاحترافي.</p>
-
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-               <img src="{% static 'assets/images/bg_7.jpg' %}" alt="New Lecturer Meeting" />
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6 >{% now 'M' %} <span>{% now 'd' %}</span></h6>
-                  </div>
-                                    <h5 class="text-maal"> الإنتاج التلفزيوني  </h5>
+            <div class="item">
+              <div class="down-content">
+                   <h5 class="text-maal"> الإنتاج التلفزيوني  </h5>
                              <p class="text-white"> تصوير مقطع فيديو أمر سهل جداً باستعمال هاتف
 ذكي ، إلا أن صناعة فيلم مميّز هو رؤية وموهبة مع
 مجموعة كبيرة من المعدات والكاميرات وفريق عمل
@@ -176,46 +141,34 @@
 نقدم جميع خدمات التصوير والإنتاج التلفزيوني
 لعملائنا كالأفلام الوثائقية والإعلانات التلفزيونية
 وإعداد وتنفيذ اللقاءات الحوارية والبرامج المتلفزة.</p>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-12 mx-auto">
+                      <img class="mx-auto" src="{% static 'assets/images/bg_7.jpg' %}" style="max-width: 8.5rem;" />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="meeting-item">
-                <div class="thumb">
-               <img src="{% static 'assets/images/bg_3.jpg' %}" alt="New Lecturer Meeting" />
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6 >{% now 'M' %} <span>{% now 'd' %}</span></h6>
-                  </div>
-                                <h5 class="text-maal"> مركز الأبحاث والدراسات</h5>
-                        <p>أسست شركة مال الإعلامية الدولية
+            <div class="item">
+              <div class="down-content">
+         <h5 class="text-maal"> مركز الأبحاث والدراسات</h5>
+                        <p class="text-white">أسست شركة مال الإعلامية الدولية
 مركز دراسات وأبحاث لجمع البيانات
 وتوفير المعلومات وعمل القراءات
 ووضع الأساسات ليكون شريكاً فاعلاً ،
 ومصدراً موثوقاً يمكن الاعتماد عليه
 في المساهمة بتسريع الخطى للشركات
 نحو المستقبل بوتيرة ثابتة ومتقنة.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="meeting-item">
-                <div class="thumb">
-               <img src="{% static 'assets/images/pr.jpg' %}" alt="New Lecturer Meeting" />
-                </div>
-                <div class="down-content">
-                  <div class="date">
-                    <h6 >{% now 'M' %} <span>{% now 'd' %}</span></h6>
+                <div class="info">
+                  <div class="row">
+                    <div class="col-12 mx-auto">
+                      <img class="mx-auto" src="{% static 'assets/images/bg_3.jpg' %}" style="max-width: 8.5rem;" />
+                    </div>
                   </div>
-                                <h5 class="text-maal">               العلاقات العامة
-  </h5>
-                                      <p >تــقوم الــعلاقــات الــعامــة عــلى أســسرئيســية ، تــجتمع لــتك ّ نظام عمل مثمر. نـعمل مـع عـملائـنا عـلى بـناء بـرامـج اسـتراتـيجية الـعلاقـات الـعامـة مـنذ الـبدايـة ، صـياغـة الخـطط والسـياسـات ، وتـنفيذهـا بـما يـحقق مصالحهم. نــقدم جــميع خــدمــاتــنا بــما فــيها الــمراكــز الإعــلامــية الاحــترافــية وبــرامــج الــمسؤولــية الاجــتماعــية وخــطط الــتواصــل الــداخــلي ، إضـافـة إلـى قـسم نشـر مـتخصصيـبرع فـي إعـداد الـتقاريـر الـسنويـة للشركات والمجلات المختصة والنشرات الإعلامية والتحليلية.</p>
-
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </div>
@@ -294,16 +247,14 @@
               <div class="item">
                 <h3 class="font-home-title">إشتراك</h3>
                 <p class="font-home-subtitle" class="text-white text-bold">إشترك معنا ليصلك كل جديد عن ماتطرحة مؤسسة مال من مميزات
-                  <div class="scroll-to-section d-flex justify-content-between">
+                  <div class="scroll-to-section d-flex justify-content-start">
                     <div class="col-lg-4 col-12">
-                          <input type="text" placeholder="إكتب البريد الألكترونى " class="form-control"/>
+                          <input type="text" placeholder="إكتب البريد الألكترونى " class="maal-input"/>
                     </div>
-                         <div class="col-lg-4 col-12">
-                          <input type="submit" value="إشترك" class="btn btn-primary text-white"/>
+                         <div class="col-lg-4 col-12" style="margin-inline: 0.2rem;">
+                          <input type="submit" value="إشترك" class="btn btn-maal"/>
                     </div>
                   </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -324,7 +275,7 @@
                 <div class="col-12">
                   <div class="count-area-content percentage">
                     <div class="count-digit">94</div>
-                    <div class="count-title">رضاء القراء</div>
+                    <div class="count-title">رضاء العميل</div>
                   </div>
                 </div>
                 <div class="col-12">
@@ -340,7 +291,7 @@
                 <div class="col-12">
                   <div class="count-area-content new-students">
                     <div class="count-digit">2345</div>
-                    <div class="count-title">صحفى</div>
+                    <div class="count-title">موظف</div>
                   </div>
                 </div>
                 <div class="col-12">
